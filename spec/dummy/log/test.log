@@ -1,0 +1,1415 @@
+  [1m[36m (440.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (357.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (970.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (357.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (374.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (763.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (307.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (299.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (571.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (390.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (463.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (394.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (340.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (399.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (567.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (373.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (349.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (543.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (488.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (474.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (539.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (475.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (524.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (471.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (550.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (524.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddMicroServiceClient001Migration (20160412165551)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160412165551"]]
+  [1m[36m (677.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (491.4ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (430.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (357.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (366.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (355.0ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", "2016-04-12 16:57:05.668074"], ["updated_at", "2016-04-12 16:57:05.668074"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (466.5ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (358.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (474.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (383.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (438.5ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (589.5ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (414.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (390.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (474.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (384.6ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (723.9ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (454.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (450.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (548.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (551.5ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (739.8ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (408.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (369.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (453.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (356.7ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (454.7ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (309.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (528.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (509.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (456.1ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (369.5ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (330.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (409.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (473.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (335.8ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+Unpermitted parameters: clientId, tenantId, jiveSignatureURL, clientSecret, jiveSignature, jiveUrl, timestamp
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", "2016-04-12 21:16:00.943355"], ["updated_at", "2016-04-12 21:16:00.943355"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered text template (0.0ms)
+Completed 204 No Content in 34ms (Views: 9.3ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (776.3ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (455.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (441.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (366.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (336.9ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+Unpermitted parameters: clientId, tenantId, jiveSignatureURL, clientSecret, jiveSignature, jiveUrl, timestamp
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", "2016-04-13 00:43:44.815417"], ["updated_at", "2016-04-13 00:43:44.815417"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered text template (0.0ms)
+Completed 204 No Content in 33ms (Views: 8.2ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (622.0ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "tenant_id" varchar, "client_id" varchar, "client_secret" varchar, "jive_signature" varchar, "jive_signature_url" varchar, "jive_url" varchar, "timestamp" varchar, "uninstalled" boolean, "attempt" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (555.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (624.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (444.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412165551')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (424.6ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.3ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.6ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36m (432.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (392.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddMicroServiceClient001Migration (20160413004838)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160413004838"]]
+  [1m[35m (379.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (520.6ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (339.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (395.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (345.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (378.8ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.3ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["created_at", "2016-04-13 00:49:04.462808"], ["updated_at", "2016-04-13 00:49:04.462808"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered text template (0.0ms)
+Completed 204 No Content in 28ms (Views: 8.8ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (539.8ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (503.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (481.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (557.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (476.4ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["created_at", "2016-04-13 00:50:26.587541"], ["updated_at", "2016-04-13 00:50:26.587541"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered text template (0.1ms)
+Completed 204 No Content in 30ms (Views: 9.7ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (644.8ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (522.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (542.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (575.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (874.6ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["created_at", "2016-04-13 00:50:59.714437"], ["updated_at", "2016-04-13 00:50:59.714437"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered text template (0.0ms)
+Completed 204 No Content in 28ms (Views: 8.7ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (479.3ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (389.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (316.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (379.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (368.8ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered text template (0.0ms)
+Completed 403 Forbidden in 31ms (Views: 8.8ms | ActiveRecord: 0.9ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (685.9ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (339.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (361.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1179.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (358.0ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+  [1m[36m (0.9ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "ASDASD"], ["created_at", "2016-04-13 01:05:16.060171"], ["updated_at", "2016-04-13 01:05:16.060171"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered text template (0.0ms)
+Completed 204 No Content in 28ms (Views: 8.1ms | ActiveRecord: 2.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (998.2ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (399.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (440.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (494.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (483.3ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "6AM/gQS83qa5e6ybm1V23n6XN+hKbGwz.s"], ["created_at", "2016-04-13 01:08:21.528133"], ["updated_at", "2016-04-13 01:08:21.528133"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered text template (0.0ms)
+Completed 204 No Content in 30ms (Views: 9.8ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (427.0ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (338.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (365.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (364.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (641.5ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [eff63fc1-9d04-4991-ad00-dd734ed4e9be] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [eff63fc1-9d04-4991-ad00-dd734ed4e9be] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 6.0ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: eff63fc1-9d04-4991-ad00-dd734ed4e9be) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.1ms)
+Completed 204 No Content in 46ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (626.5ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (480.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (404.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (357.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (384.8ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2db0838e-16e3-44aa-bbfe-2f86a9f71c10] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2db0838e-16e3-44aa-bbfe-2f86a9f71c10] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 6.07ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 2db0838e-16e3-44aa-bbfe-2f86a9f71c10) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 20ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (509.2ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (472.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (349.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (357.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (454.9ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [f24b1d80-0025-4ae0-ac22-375a665197f8] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [f24b1d80-0025-4ae0-ac22-375a665197f8] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 6.27ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: f24b1d80-0025-4ae0-ac22-375a665197f8) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 32ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (432.1ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (431.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (349.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (350.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (408.7ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b3c32bf0-6a6b-4fbe-9f1c-0a8a231ac16d] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b3c32bf0-6a6b-4fbe-9f1c-0a8a231ac16d]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b3c32bf0-6a6b-4fbe-9f1c-0a8a231ac16d]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "F6JK4MJy4RPX5w7s1odK9EK+USJZ5MgI.s"], ["created_at", "2016-04-13 03:03:16.228319"], ["updated_at", "2016-04-13 03:03:16.228319"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b3c32bf0-6a6b-4fbe-9f1c-0a8a231ac16d]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b3c32bf0-6a6b-4fbe-9f1c-0a8a231ac16d] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 24.7ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: b3c32bf0-6a6b-4fbe-9f1c-0a8a231ac16d) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 39ms (Views: 8.3ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (575.3ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (425.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (813.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (447.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (445.1ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [0046a0a9-4d72-4a07-86f6-f42a3908f1ba] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [0046a0a9-4d72-4a07-86f6-f42a3908f1ba]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [0046a0a9-4d72-4a07-86f6-f42a3908f1ba]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "PZwAAQsERhskZryLgO39R712dmnGpy09.s"], ["created_at", "2016-04-13 03:07:50.747017"], ["updated_at", "2016-04-13 03:07:50.747017"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [0046a0a9-4d72-4a07-86f6-f42a3908f1ba]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [0046a0a9-4d72-4a07-86f6-f42a3908f1ba] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 25.92ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 0046a0a9-4d72-4a07-86f6-f42a3908f1ba) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 40ms (Views: 8.1ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (570.9ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (335.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (487.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (319.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (516.9ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [3722365b-2f00-4400-b462-fc04a7267b7c] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [3722365b-2f00-4400-b462-fc04a7267b7c]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [3722365b-2f00-4400-b462-fc04a7267b7c]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "IDJ+Q1oViO3Squ5Zbmn4vGN4DYZLlwB7.s"], ["created_at", "2016-04-13 03:08:03.304793"], ["updated_at", "2016-04-13 03:08:03.304793"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [3722365b-2f00-4400-b462-fc04a7267b7c]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [3722365b-2f00-4400-b462-fc04a7267b7c] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 24.94ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 3722365b-2f00-4400-b462-fc04a7267b7c) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 39ms (Views: 8.3ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (1112.7ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (391.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (426.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (500.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (517.1ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2d1d15de-fa17-487b-bb12-62df8f004728] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2d1d15de-fa17-487b-bb12-62df8f004728]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2d1d15de-fa17-487b-bb12-62df8f004728]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "u7oFnoqkWrDzUom1OtePz09skWPiBVE2.s"], ["created_at", "2016-04-13 03:08:31.737075"], ["updated_at", "2016-04-13 03:08:31.737075"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2d1d15de-fa17-487b-bb12-62df8f004728]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2d1d15de-fa17-487b-bb12-62df8f004728] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 25.75ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 2d1d15de-fa17-487b-bb12-62df8f004728) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 40ms (Views: 8.4ms | ActiveRecord: 1.4ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (591.6ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (502.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (606.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (499.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (791.6ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1a9d701e-35b7-4643-afc5-83db9a71a490] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1a9d701e-35b7-4643-afc5-83db9a71a490]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1a9d701e-35b7-4643-afc5-83db9a71a490]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "MnWJuxX4EUtLm+/DYjj6rC+zfpuh7dZX.s"], ["created_at", "2016-04-13 03:08:49.646668"], ["updated_at", "2016-04-13 03:08:49.646668"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1a9d701e-35b7-4643-afc5-83db9a71a490]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1a9d701e-35b7-4643-afc5-83db9a71a490] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 24.83ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 1a9d701e-35b7-4643-afc5-83db9a71a490) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 40ms (Views: 7.9ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (566.3ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (464.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (717.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (566.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (715.0ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [afff6b47-1c0a-45f2-bfd8-ec786d03c977] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [afff6b47-1c0a-45f2-bfd8-ec786d03c977]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [afff6b47-1c0a-45f2-bfd8-ec786d03c977]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "X1073Ypw0LjU+1fuDf/Lypk8sTChAKcN.s"], ["created_at", "2016-04-13 03:09:14.586331"], ["updated_at", "2016-04-13 03:09:14.586331"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [afff6b47-1c0a-45f2-bfd8-ec786d03c977]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [afff6b47-1c0a-45f2-bfd8-ec786d03c977] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 23.83ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: afff6b47-1c0a-45f2-bfd8-ec786d03c977) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 37ms (Views: 7.3ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (719.6ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (368.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (349.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (361.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (605.2ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [eafba5b9-674d-4b17-9688-c9e66ba870c7] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [eafba5b9-674d-4b17-9688-c9e66ba870c7]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [eafba5b9-674d-4b17-9688-c9e66ba870c7]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "JuHiVMuR7ls1+LYT7v3RjnCpX/iV66M4.s"], ["created_at", "2016-04-13 03:10:41.207165"], ["updated_at", "2016-04-13 03:10:41.207165"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [eafba5b9-674d-4b17-9688-c9e66ba870c7]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [eafba5b9-674d-4b17-9688-c9e66ba870c7] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 26.35ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: eafba5b9-674d-4b17-9688-c9e66ba870c7) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 41ms (Views: 8.6ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (576.4ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (297.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (388.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (393.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (389.5ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [663d50ac-831b-488d-8176-ea8bf9a28d33] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [663d50ac-831b-488d-8176-ea8bf9a28d33]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [663d50ac-831b-488d-8176-ea8bf9a28d33]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "y3AW25kNkhntj9HDCDROBLiS9Zs2a0HX.s"], ["created_at", "2016-04-13 03:11:13.297758"], ["updated_at", "2016-04-13 03:11:13.297758"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [663d50ac-831b-488d-8176-ea8bf9a28d33]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [663d50ac-831b-488d-8176-ea8bf9a28d33] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 25.25ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 663d50ac-831b-488d-8176-ea8bf9a28d33) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 39ms (Views: 8.6ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (714.1ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (499.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (437.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (374.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (482.7ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [581c2b91-db45-45da-9ec6-0da2d3493d7a] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [581c2b91-db45-45da-9ec6-0da2d3493d7a]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [581c2b91-db45-45da-9ec6-0da2d3493d7a]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "0y3UqHJZ0aoXjwQGGfq9608rsS6XH58l.s"], ["created_at", "2016-04-13 03:11:48.157903"], ["updated_at", "2016-04-13 03:11:48.157903"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [581c2b91-db45-45da-9ec6-0da2d3493d7a]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [581c2b91-db45-45da-9ec6-0da2d3493d7a] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 26.16ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 581c2b91-db45-45da-9ec6-0da2d3493d7a) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 40ms (Views: 8.0ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (657.3ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (506.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (358.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (399.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (477.7ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b1de2c3c-7143-4611-95cb-5fdde4323c29] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b1de2c3c-7143-4611-95cb-5fdde4323c29]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b1de2c3c-7143-4611-95cb-5fdde4323c29]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "DxfsjDnx2wMqpOKrvLQU5RQdDpMhj+XG.s"], ["created_at", "2016-04-13 03:12:08.778180"], ["updated_at", "2016-04-13 03:12:08.778180"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b1de2c3c-7143-4611-95cb-5fdde4323c29]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [b1de2c3c-7143-4611-95cb-5fdde4323c29] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 27.26ms
+Completed 404 Not Found in 33ms (ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (435.4ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (363.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (373.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (379.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (356.0ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ff9f235-3bda-45a9-bec1-f6ed1466dbff] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ff9f235-3bda-45a9-bec1-f6ed1466dbff]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ff9f235-3bda-45a9-bec1-f6ed1466dbff]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "0wwpQ33KQaYSXU44pvk6v7lvhxdaDlT6.s"], ["created_at", "2016-04-13 03:12:26.326936"], ["updated_at", "2016-04-13 03:12:26.326936"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ff9f235-3bda-45a9-bec1-f6ed1466dbff]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ff9f235-3bda-45a9-bec1-f6ed1466dbff]   [1m[35mMicroService::Client Load (0.2ms)[0m  SELECT  "micro_service_clients".* FROM "micro_service_clients" WHERE "micro_service_clients"."id" = ? LIMIT 1  [["id", 1]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ff9f235-3bda-45a9-bec1-f6ed1466dbff] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 25.88ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 2ff9f235-3bda-45a9-bec1-f6ed1466dbff) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 37ms (Views: 7.0ms | ActiveRecord: 1.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (449.7ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (388.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (441.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (391.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (418.5ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [6c45da26-4713-4b70-acf4-9ffd8125edcc] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [6c45da26-4713-4b70-acf4-9ffd8125edcc]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [6c45da26-4713-4b70-acf4-9ffd8125edcc]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "DpFS1HKvXbgXB9Tw5xtUfqi/XIITqUj1.s"], ["created_at", "2016-04-13 03:12:38.607226"], ["updated_at", "2016-04-13 03:12:38.607226"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [6c45da26-4713-4b70-acf4-9ffd8125edcc]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [6c45da26-4713-4b70-acf4-9ffd8125edcc]   [1m[35mMicroService::Client Load (0.2ms)[0m  SELECT  "micro_service_clients".* FROM "micro_service_clients" WHERE "micro_service_clients"."id" = ? LIMIT 1  [["id", 1]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [6c45da26-4713-4b70-acf4-9ffd8125edcc] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 27.46ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 6c45da26-4713-4b70-acf4-9ffd8125edcc) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 40ms (Views: 6.9ms | ActiveRecord: 1.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (782.1ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (465.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (507.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (507.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (527.0ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [17af6896-cfa9-42bb-bce4-17ad4773d5b0] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [17af6896-cfa9-42bb-bce4-17ad4773d5b0]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [17af6896-cfa9-42bb-bce4-17ad4773d5b0]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "G3pchM+wlbE8EldN4lYyYAUI1StrrIWS.s"], ["created_at", "2016-04-13 03:12:54.293354"], ["updated_at", "2016-04-13 03:12:54.293354"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [17af6896-cfa9-42bb-bce4-17ad4773d5b0]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [17af6896-cfa9-42bb-bce4-17ad4773d5b0] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 25.26ms
+Completed 404 Not Found in 30ms (ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (423.3ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (447.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (371.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (374.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (433.6ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7a293a34-b7b3-4d02-a299-1cd1fea1d626] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7a293a34-b7b3-4d02-a299-1cd1fea1d626]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7a293a34-b7b3-4d02-a299-1cd1fea1d626]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "rFAmmQ3OSdsq6snn+Mh7yvQc//j3l8Mf.s"], ["created_at", "2016-04-13 03:13:04.406853"], ["updated_at", "2016-04-13 03:13:04.406853"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7a293a34-b7b3-4d02-a299-1cd1fea1d626]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7a293a34-b7b3-4d02-a299-1cd1fea1d626] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 17.32ms
+Completed 404 Not Found in 21ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (748.5ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (388.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (366.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (282.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (229.3ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4fe2dfa1-ca64-479e-848a-f920c11df345] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4fe2dfa1-ca64-479e-848a-f920c11df345]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4fe2dfa1-ca64-479e-848a-f920c11df345]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "S0FdA6APynPOqw+sxz732wTj3+xltV+5.s"], ["created_at", "2016-04-13 03:14:32.581593"], ["updated_at", "2016-04-13 03:14:32.581593"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4fe2dfa1-ca64-479e-848a-f920c11df345]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4fe2dfa1-ca64-479e-848a-f920c11df345]   [1m[35mMicroService::Client Load (0.2ms)[0m  SELECT  "micro_service_clients".* FROM "micro_service_clients" WHERE "micro_service_clients"."id" = ? LIMIT 1  [["id", 1]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4fe2dfa1-ca64-479e-848a-f920c11df345] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 24.15ms
+Completed 404 Not Found in 28ms (ActiveRecord: 1.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (453.5ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (823.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (471.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (449.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (531.2ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7d8c6097-04c9-4d4c-8b94-8d3db4baf185] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7d8c6097-04c9-4d4c-8b94-8d3db4baf185]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7d8c6097-04c9-4d4c-8b94-8d3db4baf185]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "K1GTpDe09/yaaafRo4ctYW9YHXrn5YPF.s"], ["created_at", "2016-04-13 03:15:06.725404"], ["updated_at", "2016-04-13 03:15:06.725404"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7d8c6097-04c9-4d4c-8b94-8d3db4baf185]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7d8c6097-04c9-4d4c-8b94-8d3db4baf185] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 25.84ms
+Completed 404 Not Found in 31ms (ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (554.2ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (271.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (440.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (324.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (640.5ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [55f0ac2d-c635-48c2-b902-f084b647fee6] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [55f0ac2d-c635-48c2-b902-f084b647fee6]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [55f0ac2d-c635-48c2-b902-f084b647fee6]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "W/r33Q/NSckWwNOgAlgb1oIVh8KGG/8r.s"], ["created_at", "2016-04-13 03:18:03.441845"], ["updated_at", "2016-04-13 03:18:03.441845"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [55f0ac2d-c635-48c2-b902-f084b647fee6]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [55f0ac2d-c635-48c2-b902-f084b647fee6] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 19.71ms
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 1.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (451.9ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (503.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (440.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (374.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (365.0ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d7a582f6-e1e0-46f7-940f-7655252fe0f4] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d7a582f6-e1e0-46f7-940f-7655252fe0f4]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d7a582f6-e1e0-46f7-940f-7655252fe0f4]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "og12VCtg24zBck/bl+GvJUh+R9Vff/5r.s"], ["created_at", "2016-04-13 03:20:04.283594"], ["updated_at", "2016-04-13 03:20:04.283594"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d7a582f6-e1e0-46f7-940f-7655252fe0f4]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d7a582f6-e1e0-46f7-940f-7655252fe0f4] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 25.88ms
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (595.0ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (364.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (449.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (392.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (349.5ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1f45d49c-1668-49de-9c2b-fc055a6e21d5] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1f45d49c-1668-49de-9c2b-fc055a6e21d5]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1f45d49c-1668-49de-9c2b-fc055a6e21d5]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "9A7QgFkC+kaxBQUhAzvBb2VtYG7DN1u8.s"], ["created_at", "2016-04-13 03:20:26.391283"], ["updated_at", "2016-04-13 03:20:26.391283"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1f45d49c-1668-49de-9c2b-fc055a6e21d5]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1f45d49c-1668-49de-9c2b-fc055a6e21d5] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 20.93ms
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.9ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (595.7ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (453.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (490.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (811.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (513.9ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.1ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d0f4dfe0-7aad-4b00-b8a5-3b4d93d7c74a] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d0f4dfe0-7aad-4b00-b8a5-3b4d93d7c74a]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d0f4dfe0-7aad-4b00-b8a5-3b4d93d7c74a]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "e4TYfbLZO8JsEr+ZD0nuFB/aFRh6AOgV.s"], ["created_at", "2016-04-13 03:20:57.963509"], ["updated_at", "2016-04-13 03:20:57.963509"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d0f4dfe0-7aad-4b00-b8a5-3b4d93d7c74a]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [d0f4dfe0-7aad-4b00-b8a5-3b4d93d7c74a] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 20.3ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: d0f4dfe0-7aad-4b00-b8a5-3b4d93d7c74a) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 31ms (Views: 7.1ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (399.8ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (364.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (357.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (399.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (382.7ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [ebd6b8e7-7328-4a21-be5d-40fc12c61d70] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [ebd6b8e7-7328-4a21-be5d-40fc12c61d70]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [ebd6b8e7-7328-4a21-be5d-40fc12c61d70]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "bJ/IFiHU/iPikXe0S42YgQmkonWddnTt.s"], ["created_at", "2016-04-13 03:23:02.885846"], ["updated_at", "2016-04-13 03:23:02.885846"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [ebd6b8e7-7328-4a21-be5d-40fc12c61d70]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [ebd6b8e7-7328-4a21-be5d-40fc12c61d70] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 24.24ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: ebd6b8e7-7328-4a21-be5d-40fc12c61d70) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.1ms)
+Completed 204 No Content in 38ms (Views: 8.1ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (508.2ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (540.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (366.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (416.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (486.8ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4337ffea-85ad-48b0-a51b-b36b8800c484] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4337ffea-85ad-48b0-a51b-b36b8800c484]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4337ffea-85ad-48b0-a51b-b36b8800c484]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "pPPuTOWwHGDokzLqlcxDDp16KjkTKcUl.s"], ["created_at", "2016-04-13 03:23:24.217508"], ["updated_at", "2016-04-13 03:23:24.217508"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4337ffea-85ad-48b0-a51b-b36b8800c484]   [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4337ffea-85ad-48b0-a51b-b36b8800c484] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 25.61ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 4337ffea-85ad-48b0-a51b-b36b8800c484) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 39ms (Views: 8.2ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (653.7ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (689.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (640.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (524.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (532.0ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [dd1f3e13-d5b1-4a70-a1b8-3ba7d9c44411] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [dd1f3e13-d5b1-4a70-a1b8-3ba7d9c44411]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [dd1f3e13-d5b1-4a70-a1b8-3ba7d9c44411]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "WVufkC/Ksa/MAm1KOlNJ5Q7obUs3Nl3h.s"], ["created_at", "2016-04-13 03:37:45.292708"], ["updated_at", "2016-04-13 03:37:45.292708"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [dd1f3e13-d5b1-4a70-a1b8-3ba7d9c44411]   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [dd1f3e13-d5b1-4a70-a1b8-3ba7d9c44411] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 11792.92ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: dd1f3e13-d5b1-4a70-a1b8-3ba7d9c44411) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 11807ms (Views: 8.6ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (1275.9ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (514.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (307.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (374.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (373.8ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1459a0f0-ecb4-4c9a-833c-19ad1a2544ed] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1459a0f0-ecb4-4c9a-833c-19ad1a2544ed]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1459a0f0-ecb4-4c9a-833c-19ad1a2544ed]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "4cRKChv05C3uyBFPzDW/uMAxSHzC/sDS.s"], ["created_at", "2016-04-13 03:38:16.506812"], ["updated_at", "2016-04-13 03:38:16.506812"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1459a0f0-ecb4-4c9a-833c-19ad1a2544ed]   [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [1459a0f0-ecb4-4c9a-833c-19ad1a2544ed] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 54.45ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 1459a0f0-ecb4-4c9a-833c-19ad1a2544ed) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.1ms)
+Completed 204 No Content in 71ms (Views: 10.9ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (742.2ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (481.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (399.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (392.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (368.4ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [731fea29-d237-4cbe-9388-49934dcb005c] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [731fea29-d237-4cbe-9388-49934dcb005c]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [731fea29-d237-4cbe-9388-49934dcb005c]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "P7mtyLyJWTmD1Ib83ndUi91l/ngzr0UP.s"], ["created_at", "2016-04-13 03:40:51.334498"], ["updated_at", "2016-04-13 03:40:51.334498"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [731fea29-d237-4cbe-9388-49934dcb005c]   [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [731fea29-d237-4cbe-9388-49934dcb005c] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 53.47ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 731fea29-d237-4cbe-9388-49934dcb005c) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 66ms (Views: 7.3ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (591.4ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (577.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (549.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (475.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (544.8ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.3ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [c44d23a9-fc1f-4cd5-a454-4cd72d4d425b] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [c44d23a9-fc1f-4cd5-a454-4cd72d4d425b]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [c44d23a9-fc1f-4cd5-a454-4cd72d4d425b]   [1m[35mSQL (0.3ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "k55d9NqEPdJ/G9UH1oF2XrEmFCg/48S3.s"], ["created_at", "2016-04-13 03:42:00.668401"], ["updated_at", "2016-04-13 03:42:00.668401"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [c44d23a9-fc1f-4cd5-a454-4cd72d4d425b]   [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [c44d23a9-fc1f-4cd5-a454-4cd72d4d425b] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 54.7ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: c44d23a9-fc1f-4cd5-a454-4cd72d4d425b) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 68ms (Views: 7.9ms | ActiveRecord: 1.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (578.4ms)[0m  [1mCREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "uninstalled" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (622.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (549.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (500.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160413004838')
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (503.9ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2791b3ba-98fb-4821-8640-fcaf89278327] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2791b3ba-98fb-4821-8640-fcaf89278327]   [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2791b3ba-98fb-4821-8640-fcaf89278327]   [1m[35mSQL (0.4ms)[0m  INSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "Phwh0JFRUIZ2ndV+VELHq7JVG+sG0AFe.s"], ["created_at", "2016-04-13 03:42:07.742198"], ["updated_at", "2016-04-13 03:42:07.742198"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2791b3ba-98fb-4821-8640-fcaf89278327]   [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2791b3ba-98fb-4821-8640-fcaf89278327] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 54.1ms
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 2791b3ba-98fb-4821-8640-fcaf89278327) to Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 71ms (Views: 7.6ms | ActiveRecord: 1.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (545.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (409.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddMicroServiceClient001Migration (20160413035251)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "micro_service_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "secret" varchar, "install_url" varchar, "uninstall_url" varchar, "attempt" integer DEFAULT 0, "uninstalled" boolean DEFAULT 0, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160413035251"]]
+  [1m[35m (406.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (481.3ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7e24d443-c9fe-4fb4-bc0e-6ae3686b28f8] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7e24d443-c9fe-4fb4-bc0e-6ae3686b28f8]   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7e24d443-c9fe-4fb4-bc0e-6ae3686b28f8]   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "K+E0H3AVvv8queV/ZnZ/pVJ/TFFf4h5M.s"], ["created_at", "2016-04-13 03:53:17.814466"], ["updated_at", "2016-04-13 03:53:17.814466"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7e24d443-c9fe-4fb4-bc0e-6ae3686b28f8]   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [7e24d443-c9fe-4fb4-bc0e-6ae3686b28f8] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 37.58ms
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.9ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (412.8ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ba26c8b-efcf-4b02-a42a-5d3ad7b2f527] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ba26c8b-efcf-4b02-a42a-5d3ad7b2f527]   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ba26c8b-efcf-4b02-a42a-5d3ad7b2f527]   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "vGIwdj9rcCMQ33ZvQcOrr7fpwLFBIF3e.s"], ["created_at", "2016-04-13 03:53:37.272706"], ["updated_at", "2016-04-13 03:53:37.272706"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ba26c8b-efcf-4b02-a42a-5d3ad7b2f527]   [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [2ba26c8b-efcf-4b02-a42a-5d3ad7b2f527] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 54.5ms
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 1.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (332.0ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.3ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [8d3878cc-dafe-40ee-8bf9-20974cc002c2] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [8d3878cc-dafe-40ee-8bf9-20974cc002c2]   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [8d3878cc-dafe-40ee-8bf9-20974cc002c2]   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "9jj4/H+9I/KoDTYJyTZqzTNJh0tigUxT.s"], ["created_at", "2016-04-13 03:54:02.709546"], ["updated_at", "2016-04-13 03:54:02.709546"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [8d3878cc-dafe-40ee-8bf9-20974cc002c2]   [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [8d3878cc-dafe-40ee-8bf9-20974cc002c2] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 59.02ms
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 1.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (564.5ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [9b44992a-2994-4c70-89b9-9daccebd4c16] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [9b44992a-2994-4c70-89b9-9daccebd4c16]   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [9b44992a-2994-4c70-89b9-9daccebd4c16]   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "y457+7jeVv+51NyR2S9q38Hi3JbgFy0D.s"], ["created_at", "2016-04-13 03:54:33.490418"], ["updated_at", "2016-04-13 03:54:33.490418"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [9b44992a-2994-4c70-89b9-9daccebd4c16]   [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [9b44992a-2994-4c70-89b9-9daccebd4c16] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 57.34ms
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 1.1ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (521.6ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.3ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4b4efbd8-f78e-4b90-8ddb-02bf2f404442] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4b4efbd8-f78e-4b90-8ddb-02bf2f404442]   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4b4efbd8-f78e-4b90-8ddb-02bf2f404442]   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "YIx1INobFjT49i/r/3Bestx0qwSCabXY.s"], ["created_at", "2016-04-13 03:55:00.388428"], ["updated_at", "2016-04-13 03:55:00.388428"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4b4efbd8-f78e-4b90-8ddb-02bf2f404442]   [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [4b4efbd8-f78e-4b90-8ddb-02bf2f404442] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 68.13ms
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 1.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (425.1ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.3ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [fc45f3f2-5422-4bf8-aaee-8b61919366b5] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [fc45f3f2-5422-4bf8-aaee-8b61919366b5]   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [fc45f3f2-5422-4bf8-aaee-8b61919366b5]   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "okxDa9xqiBt452oeVoZqMx0fzK114mcS.s"], ["created_at", "2016-04-13 03:55:22.683353"], ["updated_at", "2016-04-13 03:55:22.683353"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [fc45f3f2-5422-4bf8-aaee-8b61919366b5]   [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [fc45f3f2-5422-4bf8-aaee-8b61919366b5] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 48.76ms
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 1.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (473.9ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [85a58366-c9f0-451a-9e44-af3479d3c73d] Performing MicroServiceServer::MicroserviceClientInstallJob from Inline(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [85a58366-c9f0-451a-9e44-af3479d3c73d]   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [85a58366-c9f0-451a-9e44-af3479d3c73d]   [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "OB1Jd/oy4jyDrEU4wBgZr3YdxlDUZnl/.s"], ["created_at", "2016-04-13 03:55:39.789836"], ["updated_at", "2016-04-13 03:55:39.789836"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [85a58366-c9f0-451a-9e44-af3479d3c73d]   [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [85a58366-c9f0-451a-9e44-af3479d3c73d] Performed MicroServiceServer::MicroserviceClientInstallJob from Inline(default) in 56.81ms
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 1.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (552.7ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.3ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (484.9ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.3ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: d0c6694b-4468-46ec-93d2-31e49979847b) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 12ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (396.0ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 91d46aae-3326-488c-810c-457153e8a0b2) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 14ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (459.4ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 9465a07c-7bea-4c79-9c09-50f422d412f6) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 17ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (587.7ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 626c378c-ad88-4d5c-94ae-132c0e6d66f6) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 8ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (512.0ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: ce4fadf8-2349-4f90-be32-d423465af537) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 12ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (512.3ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.3ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 6b768a7a-6733-4319-abe4-d3671f67b799) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (475.0ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: b463473c-f5e2-4706-96b3-955f1ef31f97) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (489.7ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.3ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: c9053b0d-282f-4fef-bace-304842fb3baa) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 13ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (548.8ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.3ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (380.4ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [f01911c0-f4d2-4f6c-83f6-9e819f38037c] Performing MicroServiceServer::MicroserviceClientInstallJob from Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [f01911c0-f4d2-4f6c-83f6-9e819f38037c]   [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [f01911c0-f4d2-4f6c-83f6-9e819f38037c]   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "micro_service_clients" ("install_url", "uninstall_url", "secret", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["install_url", "http://localhost/my-server/install"], ["uninstall_url", "http://localhost/my-server/uninstall"], ["secret", "hYBRbXLimRUsyBWm3AbXenaY2DvSptY9.s"], ["created_at", "2016-04-13 04:12:52.488036"], ["updated_at", "2016-04-13 04:12:52.488036"]]
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [f01911c0-f4d2-4f6c-83f6-9e819f38037c]   [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [f01911c0-f4d2-4f6c-83f6-9e819f38037c] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 059c6b31-d8d0-4128-bb5c-fcaa1d6b9dcc) to Test(default) at 2016-04-13 04:13:52 UTC with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall", "attempt"=>2}
+[ActiveJob] [MicroServiceServer::MicroserviceClientInstallJob] [f01911c0-f4d2-4f6c-83f6-9e819f38037c] Performed MicroServiceServer::MicroserviceClientInstallJob from Test(default) in 39.44ms
+  Rendered text template (0.0ms)
+Completed 204 No Content in 50ms (Views: 7.8ms | ActiveRecord: 1.1ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (513.6ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: a607ee22-8ae9-4f68-8ff8-b20db1754da4) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 13ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (447.7ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: 4afc0ad2-2633-42c6-ae2e-a0491f590429) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.1ms)
+Completed 204 No Content in 13ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "micro_service_clients";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'micro_service_clients';[0m
+Processing by MicroServiceServer::ClientsController#create as HTML
+  Parameters: {"CONTENT_TYPE"=>"application/json", "ACCEPT"=>"application/json"}
+[ActiveJob] Enqueued MicroServiceServer::MicroserviceClientInstallJob (Job ID: b28f6c96-7cfc-4102-87bb-66ca06d561eb) to Test(default) with arguments: {"install_url"=>"http://localhost/my-server/install", "uninstall_url"=>"http://localhost/my-server/uninstall"}
+  Rendered text template (0.0ms)
+Completed 204 No Content in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "micro_service_clients";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'micro_service_clients';
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
